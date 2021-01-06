@@ -16,6 +16,6 @@ void loop()
   {
     ledState = not ledState;
     digitalWrite(ledPin, ledState);
-    delay(500);
+    delay(500); //This command to subsided the debouncing
   }
 }
